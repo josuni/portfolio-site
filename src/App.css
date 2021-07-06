@@ -1,18 +1,24 @@
 .App {
   text-align: center;
-  height: 200vh;
+  height: 100vh;
   background-image: url(images/pink_flowers_cropped.jpg);
-  background-size:100% 100vh;
+  background-size:1920px 100vh;
   background-repeat:no-repeat;
   background-color: #fc5874;
 }
 
 .navbar {
   background-color: #fc5874;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
 
 .card {
   margin-top: 33vh;
+}
+
+.jumbotron {
+  margin-top: 233vh;
 }
 
 .container {
