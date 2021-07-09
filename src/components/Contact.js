@@ -7,7 +7,7 @@ export default class Contact extends Component {
       return (
         <div>
           <div style={{display: 'flex', justifyContent: 'center'}}>
-          <Card border="danger" style={{ width: '30rem'}}>
+          <Card style={{ width: '30rem'}}>
             <Card.Body>
               <Card.Title>Contact</Card.Title>
               <Card.Text>
