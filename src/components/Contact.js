@@ -7,13 +7,14 @@ export default class Contact extends Component {
       return (
         <div>
           <div style={{display: 'flex', justifyContent: 'center'}}>
-          <Card border="danger" style={{ width: '20rem'}}>
+          <Card border="danger" style={{ width: '30rem'}}>
             <Card.Body>
-              <Card.Title>Hi there!</Card.Title>
+              <Card.Title>Contact</Card.Title>
               <Card.Text>
                 <p>
-                This is contact. <br></br>
-                I'm making a portfolio.
+                Email: <a href="mailto: sjeiterj@u.rochester.edu">sjeiterj@u.rochester.edu</a><br></br>
+                Github: <a href="https://github.com/josuni">github.com/josuni</a><br></br>
+                LinkedIn: <a href="https://www.linkedin.com/in/sara-jo-j-b856281ba/">linkedin.com/in/sara-jo-j-b856281ba</a><br></br>
                 </p>
               </Card.Text>
             </Card.Body>

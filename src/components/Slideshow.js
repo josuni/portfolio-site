@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Card } from 'react-bootstrap';
+import image from "./stockcode.jpg";
 
 export default class Slideshow extends Component {
     render(){
@@ -8,16 +9,25 @@ export default class Slideshow extends Component {
         <div>
           <Carousel>
             <Carousel.Item>
-              dbsigbijgfdbijfg
+              <img width="700" height="500" src={image} alt="About-img" />
+              <Carousel.Caption>
+                <h3>About</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              dbfsoisdfabidfsab
+              <img width="700" height="500" src={image} alt="Work-img" />
+              <Carousel.Caption>
+                <h3>Work</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              fsbifbidbdfsnoids
-            </Carousel.Item>
-            <Carousel.Item>
-              iudfbsibfdibsfda
+              <img width="700" height="500" src={image} alt="Contact-img" />
+              <Carousel.Caption>
+                <h3>Contact</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>
