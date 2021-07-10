@@ -15,7 +15,7 @@ export default class Work extends Component {
                 <Card.Body>
                   <Card.Title>This Website</Card.Title>
                   <Card.Text>
-                    See project on Github
+                    See this project on Github
                   </Card.Text>
                 </Card.Body>
                 <Card.Img variant="bottom" src={compImg} alt="Card image" />
