@@ -4,7 +4,6 @@ import { Navbar, Nav} from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
-import Work from "./Work";
 import Contact from "./Contact";
 
 export default class Header extends Component {
@@ -18,7 +17,7 @@ export default class Header extends Component {
             <Nav>
                <Nav.Link as={Link} to="/home">Home</Nav.Link>
                <Nav.Link as={Link} to="/about">About</Nav.Link>
-               <Nav.Link as={Link} to="/work">Work</Nav.Link>
+               <Nav.Link href="https://github.com/josuni">Work</Nav.Link>
                <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             </Nav>
           </Navbar>
@@ -27,9 +26,6 @@ export default class Header extends Component {
           <Switch>
             <Route path="/contact">
               <Contact />
-            </Route>
-            <Route path="/work">
-              <Work />
             </Route>
             <Route path="/about">
               <About />

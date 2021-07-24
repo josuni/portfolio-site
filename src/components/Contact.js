@@ -14,7 +14,7 @@ export default class Contact extends Component {
                 <p>
                 Email: <a href="mailto: sjeiterj@u.rochester.edu">sjeiterj@u.rochester.edu</a><br></br>
                 Github: <a href="https://github.com/josuni">github.com/josuni</a><br></br>
-                LinkedIn: <a href="https://www.linkedin.com/in/sara-jo-j-b856281ba/">linkedin.com/in/sara-jo-j-b856281ba</a><br></br>
+                LinkedIn: <a href="https://www.linkedin.com/in/sjjj/">https://www.linkedin.com/in/sjjj/</a><br></br>
                 </p>
               </Card.Text>
             </Card.Body>
